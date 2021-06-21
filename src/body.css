@@ -1,0 +1,64 @@
+.body {
+  padding: 30px;
+  width: 100%;
+  height: 100vh;
+  overflow-y: overlay;
+  flex: 0.8;
+  color: white;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(91, 87, 115);
+  margin-bottom: 32px;
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body__info {
+  display: flex;
+  align-items: center;
+  /* align-items: flex-end; */
+  margin-top: 50px;
+}
+.body__info > img {
+  height: 10vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__infoText {
+  flex: 1;
+  margin-left: 23px;
+}
+.body__infoText > h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.body__infoText > p {
+  font-size: 14px;
+}
+
+.body__songs {
+  margin: 20px -30px;
+}
+.body__icons {
+  /* margin-top: 10px; */
+  display: flex;
+  align-items: center;
+}
+.body__icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+.body__shuffle {
+  font-size: 60px !important;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 40px;
+}
+.body__shuffle:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+  background-color: green;
+}

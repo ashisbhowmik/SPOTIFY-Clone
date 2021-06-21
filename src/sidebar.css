@@ -1,0 +1,33 @@
+.sidebar {
+  flex: 0.2;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 170px;
+  height: 100vh;
+  color: white;
+  background-color: #040404;
+  position: sticky;
+  top: 0;
+  overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__logo {
+  height: 70px;
+  padding: 6px;
+  margin-right: auto;
+}
+
+.sidebar__title {
+  margin-left: 16px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
